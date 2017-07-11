@@ -5,7 +5,7 @@
     "start": "cd src && node server.js",
     "test": "cd src && jest",
     "build": "webpack -p --watch",
-    "monitor": "nodemon --ignore /src/mock-db.json --exec babel-node src/server.js",
+    "monitor": "nodemon --ignore /src/mock-db.json --exec babel-node src/server.js"
   },
   "repository": {
     "type": "git",
